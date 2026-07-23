@@ -38,9 +38,9 @@ local fontSize = isTouchEnabled and 9 or 11
 local footerTextSize = isTouchEnabled and 7 or 9
 
 local MAIN_CONFIG = {
-    TableIncrease = 1.0,
+    TableIncrease = 2.0,
     Tries = 1,
-    LoopWaitTime = 0.158
+    LoopWaitTime = 0.258
 }
 
 local LOWEND_CONFIG = {
