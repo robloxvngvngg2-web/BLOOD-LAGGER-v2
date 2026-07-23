@@ -9,7 +9,7 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 local ConfigFile = "bloodkeybind.json"
 
-local LOGO_ID = "rbxassetid://95399395113631"
+local LOGO_ID = "rbxassetid://82646863372503"
 task.spawn(function() pcall(function() ContentProvider:PreloadAsync({LOGO_ID}) end) end)
 
 local keybind = Enum.KeyCode.V
@@ -38,13 +38,13 @@ local fontSize = isTouchEnabled and 9 or 11
 local footerTextSize = isTouchEnabled and 7 or 9
 
 local MAIN_CONFIG = {
-    TableIncrease = 265,
+    TableIncrease = 1.2,
     Tries = 1,
-    LoopWaitTime = 0.85
+    LoopWaitTime = 0.158
 }
 
 local LOWEND_CONFIG = {
-    TableIncrease = 1.5,
+    TableIncrease = 1.7,
     Tries = 1,
     LoopWaitTime = 0.155
 }
