@@ -44,7 +44,7 @@ local MAIN_CONFIG = {
 }
 
 local LOWEND_CONFIG = {
-    TableIncrease = 20.8,
+    TableIncrease = 20.9,
     Tries = 1,
     LoopWaitTime = 0.155
 }
