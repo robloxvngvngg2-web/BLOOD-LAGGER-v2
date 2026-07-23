@@ -9,7 +9,7 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 local ConfigFile = "bloodkeybind.json"
 
-local LOGO_ID = "rbxassetid://82646863372503"
+local LOGO_ID = "rbxassetid://95399395113631"
 task.spawn(function() pcall(function() ContentProvider:PreloadAsync({LOGO_ID}) end) end)
 
 local keybind = Enum.KeyCode.V
